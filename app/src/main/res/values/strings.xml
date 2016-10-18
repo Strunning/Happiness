@@ -1,0 +1,428 @@
+<resources>
+    <string name="app_name">Happiness</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+ <string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <!--
+          The logic of redirections
+
+          1. Array which has \"strings\" in the ending of its name - is an array for ScreenSlider Fragment
+          The values from this array will be presented in slider
+          First part of a name identifies to which logical state it belongs. For instance,
+          introduction_strings = array for ScreenSlider Fragment, which will be presented at a phase called introduction
+          button_mostly_happy_strings = array for ScreenSlider Fragment, which will be presented after button_mostly_happy
+          was pressed (this state will transfer as a signature)
+
+          2. Array with a single name (like \"introduction\") is an array which defines main menu button values.
+          It should be used only for button definition
+
+          3. Array with \"redirect_array\" name postfix is a service array which defines a redirection value for a button
+          in main menu. For instance, "introduction_redirection_array" identifies a redirection value for buttons of
+          "introduction" array.
+          introduction[1] = x, introduction_redirection_array[1] = x-redirection-option. For instance, \"button_mostly_happy\"
+          Redirection option + \"strings\" = array for ScreenSlider Fragment( see 1. )
+
+    -->
+
+    <string-array name="introduction_strings">
+        <item>Before designing this app
+            \nwe asked ourselves:
+            \nwhat do people want?
+            \n
+            \n
+            \n
+            \nThe guesses were many and none.
+            \n
+            \n
+            \n
+            \nBut to be honest, people want happiness.
+        </item>
+        <item>This app doesn’t give you happiness.
+            \nBut it could help you gain it from inside
+            \nyour inner self, situation, fresh look,
+            \noccasionally, or some other way.
+            \n
+            \n
+            \n
+            \n
+            \nYou might doubt it altogether.
+            \nYou might be skeptical.
+            \n
+            \n
+            \nSure.
+            \n
+            \n
+            \nBut this game is without loss.
+            \nYou only win.
+        </item>
+        <item>This introduction you can skip later.
+            \nThe app gives some therapeutic suggestions
+            \nand mind-oriented strategies, such as
+            \nlateral thinking technique, which allows you
+            \nto change focus of an issue and solve it.
+            \nIt will also contains therapeutic and creative
+            \nadvices which should be a good relaxaction
+            \nand practice.
+            \n
+            \nIt might navigate you through some
+            \nyes-no options in future.
+            \n
+            \n
+            \nBut first,
+            \n
+            \nAre you happy?
+        </item>
+        <item></item>
+        </string-array>
+
+    <string-array name="button_entirely_happy_strings">
+        <item>Well done!
+            \nYou are indeed a rare individual.
+            \n
+            \n
+            \nAnd if you are,
+            \nOur task is to make you prolong this state
+            \n
+            \nTo make happiness last
+            \nTo make it expand
+            \n
+            \nTill forever
+        </item>
+        <item>The author of this application was entirely happy
+            \nAlso
+            \nAnd in that state one thing mattered
+            \nTo make others happy and prosper
+            \n
+            \n
+            \nOur strategy will now focus on expanding
+            \nAnd sharing
+        </item>
+        <item>The idea of this app is simple:
+            \nThere will be random cards with small,
+            \nMagic, sometimes absurd but clever
+            \nAdvices: things to be done
+            \nWhich fit your current state.
+            \n
+            \nYou should not take another card
+            \nBefore finishing current.
+            \nYou must do them.
+            \nOr at least most of them
+            \n
+            \n
+            \n
+            \nYou may not.
+            \nBut there wouldn’t be any profit
+        </item>
+        <item>The cards are very special
+            \nThey are psychologically prepared
+            \nAnd have propositions
+            \nWhich might seem odd sometimes
+            \n
+            \nThe lateral thinking is a way of expanding
+            \nYour inner resources at problem solving
+            \nBy focusing on something, which is related
+            \nTo the task, but indirectly
+            \n
+            \nIt should work like “Eureka!”
+            \n
+            \nAnd in the end
+            \nIt works exactly that way
+        </item>
+        <item>Agree?
+        \n
+        \n
+        \n
+        \nReady?</item>
+        <item></item>
+        </string-array>
+
+     <string-array name="button_mostly_happy_strings">
+        <item>Good
+            \nYour state
+            \nIs a golden standard of wellness
+            \nA very essence of norm
+            \nIn a normal world
+            \n
+            \nPeople should be mostly happy
+            \nAnd extend happiness
+        </item>
+        <item>And our world is complex
+        \nSo we must be elegant
+        \nAnd creative
+        \nTo make our life better
+        \nAnd"/"or to prolong its goodness
+        </item>
+        <item>We will try to see which are
+            \nThe strongest reasons
+            \nFor your happiness
+            \nAnd reinforce them.
+            \n
+            \nWe will try to figure the weakest spots,
+            \nThe disturbances
+            \nAnd revert them
+            \n
+            \nOur strategy here is a joyful
+            \nAnd interesting journey
+            \nTo sub-consciousness.
+            \n
+            \nPretend it is game,
+            \nWhich it is
+        </item>
+          <item>The idea of this app is simple:
+            \nThere will be random cards with small,
+            \nMagic, sometimes absurd but clever
+            \nAdvices: things to be done
+            \nWhich fit your current state.
+            \n
+            \nYou should not take another card
+            \nBefore finishing current.
+            \nYou must do them.
+            \nOr at least most of them
+            \n
+            \n
+            \n
+            \nYou may not.
+            \nBut there wouldn’t be any profit
+        </item>
+        <item>The cards are very special
+            \nThey are psychologically prepared
+            \nAnd have propositions
+            \nWhich might seem odd sometimes
+            \n
+            \nThe lateral thinking is a way of expanding
+            \nYour inner resources at problem solving
+            \nBy focusing on something, which is related
+            \nTo the task, but indirectly
+            \n
+            \nIt should work like “Eureka!”
+            \n
+            \nAnd in the end
+            \nIt works exactly that way
+        </item>
+        <item>Agree?
+        \n
+        \n
+        \n
+        \nReady?</item>
+         <item></item>
+        </string-array>
+
+     <string-array name="button_currently_happy_strings">
+        <item>Congratulations! : )
+            \nThis application likes you happy
+            \nMost of all
+            \n
+            \nIf you are happy now
+            \nIt is easier to continue
+            \nFor many days and more
+            \n
+            \n
+            \nYet
+            \nWe find this "currently"
+            \nVery fragile
+        </item>
+        <item>We will focus on enhancing
+            \nThis delicate and admirable state
+            \nOur strategy will focus on reinforcement
+            \n
+            \n
+            \nTo achieve this, we will try to see
+            \nWhich factors might be somehow disturbing
+            \nOr distracting in future
+            \nIn order to prevent them
+            \n
+            \nIf there are none
+            \nIt is even better
+        </item>
+           <item>The idea of this app is simple:
+            \nThere will be random cards with small,
+            \nMagic, sometimes absurd but clever
+            \nAdvices: things to be done
+            \nWhich fit your current state.
+            \n
+            \nYou should not take another card
+            \nBefore finishing current.
+            \nYou must do them.
+            \nOr at least most of them
+            \n
+            \n
+            \n
+            \nYou may not.
+            \nBut there wouldn’t be any profit
+        </item>
+        <item>The cards are very special
+            \nThey are psychologically prepared
+            \nAnd have propositions
+            \nWhich might seem odd sometimes
+            \n
+            \nThe lateral thinking is a way of expanding
+            \nYour inner resources at problem solving
+            \nBy focusing on something, which is related
+            \nTo the task, but indirectly
+            \n
+            \nIt should work like “Eureka!”
+            \n
+            \nAnd in the end
+            \nIt works exactly that way
+        </item>
+        <item>Agree?
+        \n
+        \n
+        \n
+        \nReady?
+        </item>
+         <item></item>
+        </string-array>
+
+     <string-array name="button_mostly_unhappy_strings">
+        <item>You are not alone.
+            \nUnfortunately, very many are
+            \nIn the same situation
+            \n
+            \nFortunately,
+            \nThe troubles are same.
+            \nSo as the solutions
+            \n
+            \nEven very sick and tired people
+            \nCan easily recover and rise
+            \nEven if there are strong reasons
+            \nFor unhappiness
+        </item>
+        <item>We will focus on the main reason why
+            \nThere is such a state
+            \n
+            \nThere might be plenty
+            \nThen we shall take them one by one
+            \n
+            \n
+            \nOur strategy will be reason-oriented.
+            \nWe might not solve it,
+            \nBut we might help it to dissolve
+            \nHopefully, at a great extent
+        </item>
+         <item>\(perhaps, you\&apos;ve already read it\)
+             \nThe idea of this app is simple:
+             \nThere will be random cards with small,
+             \nMagic, sometimes absurd but clever
+             \nAdvices: things to be done
+             \nWhich fit your current state.
+             \n
+             \nYou should not take another card
+             \nBefore finishing current.
+             \nYou must do them.
+             \nOr at least most of them
+             \n
+             \n
+             \n
+             \nYou may not.
+             \nBut there wouldn\&apos;t be any profit
+        </item>
+        <item>The cards are very special
+            \nThey are psychologically prepared
+            \nAnd have propositions
+            \nWhich might seem odd sometimes
+            \n
+            \nThe lateral thinking is a way of expanding
+            \nYour inner resources at problem solving
+            \nBy focusing on something, which is related
+            \nTo the task, but indirectly
+            \n
+            \nIt should work like “Eureka!”
+            \n
+            \nAnd in the end
+            \nIt works exactly that way
+        </item>
+        <item>So let\'s give it a try</item>
+         <item></item>
+        </string-array>
+
+     <string-array name="button_currently_unhappy_strings">
+        <item>ooh unappy</item>
+        <item>jaba</item>
+        <item>bejabawaba
+        \nbut wenaba
+        \nubab</item>
+         <item></item>
+        </string-array>
+
+     <string-array name="button_helpme_strings">
+        <item>If it is that bad
+            \nAnd that honestly serious
+            \nWe humbly advice you
+            \nTo call a psychologist
+            \n
+            \nNo, the app is not ending
+            \nWe got some strategies for you right away
+            \nBut one of them is
+            \nTo call a specialist
+            \n
+            \nAnd to do it now
+        </item>
+        <item>Why?
+            \nIt just helps.
+            \nAlmost every cases are curable
+            \nSo please
+            \nCall
+            \n
+            \nAnd here we will focus on a heavy support
+            \nWithout reasons
+            \n
+            \nWe don’t need to dig in the reasons
+            \nIf the case is depression
+            \nWe need to be able to ask for help
+            \n
+            \nJust that easy, yes
+            \nAnd it will start to be better
+        </item>
+        <item>bejabawaba
+        \nbut wenaba
+        \nubab</item>
+         <item></item>
+        </string-array>
+
+
+    <string name="introduction_redirection">ee.st.running.happiness.app.MainMenuActivity</string>
+    <string name="button_entirely_happy_redirection">ee.st.running.happiness.app.MainMenuActivity</string>
+    <string name="button_mostly_happy_redirection">ee.st.running.happiness.app.TherapeuticRandomCardsActivity</string>
+    <string name="button_currently_happy_redirection">ee.st.running.happiness.app.MainMenuActivity</string>
+    <string name="button_mostly_unhappy_redirection">ee.st.running.happiness.app.MainMenuActivity</string>
+    <string name="button_currently_unhappy_redirection">ee.st.running.happiness.app.MainMenuActivity</string>
+    <string name="button_helpme_redirection">ee.st.running.happiness.app.MainMenuActivity</string>
+
+    <string-array name="introduction">
+        <item>Yes, entirely</item>
+        <item>Yes, mostly</item>
+        <item>Yes, currently</item>
+        <item>Mostly no</item>
+        <item>Currently no</item>
+        <item>Help me</item>
+        <item>Are you happy?</item>
+    </string-array>
+    <string-array name="introduction_redirect_array">
+        <item>button_entirely_happy</item>
+        <item>button_mostly_happy</item>
+        <item>button_currently_happy</item>
+        <item>button_mostly_unhappy</item>
+        <item>button_currently_unhappy</item>
+        <item>button_helpme</item>
+    </string-array>
+
+    <string-array name="button_mostly_happy">
+        <item>So y made it</item>
+        <item>Cool</item>
+        <item>Bro</item>
+        <item>Cuz</item>
+        <item>Its</item>
+        <item>Probably working</item>
+        <item>IIII</item>
+    </string-array>
+    <string-array name="button_mostly_happy_redirect_array">
+        <item>button_soumadeit</item>
+        <item>button_mostly_happy</item>
+        <item>button_currently_happy</item>
+        <item>button_mostly_unhappy</item>
+        <item>button_currently_unhappy</item>
+        <item>button_helpme</item>
+    </string-array>
+
+</resources>
